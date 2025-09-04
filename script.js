@@ -5,6 +5,9 @@ console.log(lampadinaSpenta);
 const lampadinaAccesa = document.getElementById("lamp-on");
 console.log(lampadinaAccesa);
 
+const bottoneAccensione = document.getElementById("button-on");
+
+
 //GESTIAMO EVENTO SU BOTTONE
 bottoneAccensione.addEventListener('click',
     accendiLampadina
@@ -30,6 +33,9 @@ function accendiLampadina () {
     } else {
         lampadinaAccesa.classList.add("d-block");
     } 
+
+
+
 
     console.log(lampadinaSpenta.classList);
     console.log(lampadinaAccesa.classList);
